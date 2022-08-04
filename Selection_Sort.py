@@ -1,5 +1,5 @@
 def min_index(lon, s):
-    min = s  # 擂主
+    min = s
     for i in range(s + 1, len(lon)):
         if lon[i] < lon[min]:
             min = i
